@@ -1,1 +1,3 @@
 # SimpleFormWithMovedLables
+
+![](Moved.gif)
