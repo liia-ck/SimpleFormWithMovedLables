@@ -27,7 +27,7 @@ body::after {
   position: absolute;
   z-index: 2;
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform:translate(-50%, -50%);
   width: 400px;
   background:rgb(250, 248, 244, 0.7);
@@ -101,105 +101,25 @@ body::after {
 } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width: 1200px) {
+  .box {
+    left:50%;
+  }
+}
+
+@media(max-width: 600px) {
+  .box {
+      width: 300px;
+      padding: 20px;
+    }
+    
+    .box h2 {
+      font-weight: 200;
+      margin: 0 0 20px;
+    }
+    
+    .box input {
+      font-weight: 200;
+      margin-bottom:20px;
+    }
+}
