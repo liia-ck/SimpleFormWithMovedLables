@@ -6,7 +6,9 @@ body {
   background: url(reg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   z-index: -1;
+  overflow: hidden;
 }
 
 body::after {
